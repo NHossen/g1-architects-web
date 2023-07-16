@@ -222,6 +222,18 @@ main{
         width: 165px;
 
     }
+    .footer-section{
+        background-color: #FF900E;
+        width: 80%;
+        text-align: center;
+        margin: 0 auto;
+        border-radius: 8px;
+        margin-bottom: 100px;
+
+    }
+    .footer-section p{
+        padding: 20px 100px;
+    }
     
 
 /* Responsive section by media query */
@@ -268,6 +280,10 @@ main{
     
     .card-container{
         gap: 20px;
+    }
+
+    .footer-section p{
+        padding: 20px;
     }
 
 
