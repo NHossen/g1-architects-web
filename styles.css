@@ -139,6 +139,10 @@ main{
     display: flex;
     gap: 100px;
 }
+.feature-img img{
+    height: 90%;
+    margin-left: 60px;
+}
 .feature .team-title{
     border-left: 5px solid orange;
     padding-left: 20px;
@@ -157,10 +161,19 @@ main{
     padding: 40px;
     color: white;
     width: 250px;
+    text-align: center;
+    position: relative;
+    bottom: 100px;
 
 }
 .e10-tears-bed h2{
     font-size: 4rem;
+    margin: 0px;
+
+}
+.e10-tears-bed p{
+    font-size: 1.5rem;
+
 }
 
     /* facts container */
@@ -222,9 +235,20 @@ main{
     nav,
     .team-container,
     .card-container,
-    .sposors-img-container{
+    .sposors-img-container,
+    .feature{
        flex-direction: column;
         
+    }
+
+    .feature-img img{
+        width: 90%;
+        margin-left:0px;
+    }
+    .e10-tears-bed{
+        max-width: 300px;
+        position: static;
+
     }
 
     .text-banner{
@@ -257,7 +281,8 @@ main{
         padding: 50px;
     }
     nav,
-     .team-container{
+     .team-container,
+     .feature{
        flex-direction: column;
         
     }
