@@ -105,7 +105,7 @@ margin-bottom:20px;
 /* main styles */
 main{
     max-width: 1440px;
-    margin: 0 auto;
+    margin: 60px auto;
 }
 /* teams styles */
 .team-container{
@@ -141,7 +141,8 @@ main{
     .banner-section{
         padding: 20px;
     }
-    nav{
+    nav,
+    .team-container{
        flex-direction: column;
         
     }
@@ -151,7 +152,17 @@ main{
         
     }
 
-    
+    .teams-images{
+        grid-template-columns: 1fr;
+    }
+
+    .teams-content{
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+
+    /* teams container */
 }
 
 /* for mobile devices for tabltet device */
@@ -160,7 +171,8 @@ main{
     .banner-section{
         padding: 50px;
     }
-    nav{
+    nav,
+     .team-container{
        flex-direction: column;
         
     }
