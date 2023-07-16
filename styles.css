@@ -132,6 +132,42 @@ main{
     color: orange;
     font-weight: 700px;
 }
+    /* facts container */
+    .facts{
+        margin: 40px;
+    }
+
+
+    .card-container .card{
+        border-radius: 8px;
+        border: 1px solid orange;
+        text-align: center;
+        padding:30px;
+
+        /* font-size: 2.8rem; */
+
+
+    
+    }
+    .card-container .card-title{
+        font-weight: 600;
+        color: #727272;
+        font-size: 1.25rem;
+        margin-top: 5px;
+    }
+    .card-container .card-state{
+        font-size: 2.8rem;
+        color: #424242;
+        margin-top: 10px;
+        margin-bottom: 10px;
+
+    }
+    .card-container{
+        display: flex;
+        justify-content: space-around;
+        margin: 30px;
+    }
+    
 
 /* Responsive section by media query */
 
@@ -160,6 +196,7 @@ main{
         padding-right: 20px;
         padding-left: 20px;
     }
+
 
 
     /* teams container */
